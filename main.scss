@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600;700&family=Dosis:wght@500&family=Libre+Baskerville:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,600&family=PT+Sans+Narrow:wght@700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Whisper&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+  
+}
+body{
+    width: 100%;
+    //transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    //position: relative;
+    //background: #5f0594;
+    background: url(images/background\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.container{
+    background-color: #e4be96;
+    width: 540px;
+   height: 100vh;
+    margin: auto;
+    border-radius: 15px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 50px;
+    
+    .image{
+        background: url(images/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg);
+       background-position: center;
+        background-size: cover;
+    }
+    .image{
+        width: 300px;
+        height:300px ;
+        margin: auto ;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin-top: 70px;
+        border-radius: 50%;
+        border:2px solid rgba(27, 0, 177, 0.823);
+        border:6px solid #ff00ff
+        
+        
+       
+    }
+}
